@@ -33,57 +33,5 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-//    public String getURL(String s)  {
-//
-//
-//
-//        URL url = null;
-//
-//        try {
-//            url = new URL(s);
-//        } catch (MalformedURLException e) {
-//
-//            e.printStackTrace();
-//        }
-//
-//
-//
-//        URLConnection connection = null;
-//
-//        try {
-//            connection = url.openConnection();
-//        } catch (IOException e) {
-//
-//            e.printStackTrace();
-//        }
-//
-//
-//        InputStreamReader isr = null;
-//
-//
-//        try {
-//            isr = new InputStreamReader((connection.getInputStream()));
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//
-//
-//
-//        BufferedReader in = new BufferedReader(isr);
-//        String line = null;
-//        try {
-//            line = in.readLine();
-//            while (in.readLine() != null) {
-//                Log.i("hello", line);
-//            }
-//
-//        } catch (IOException e) {
-//
-//            e.printStackTrace();
-//        }
-//
-//
-//        return s;
-//    }
 }
 

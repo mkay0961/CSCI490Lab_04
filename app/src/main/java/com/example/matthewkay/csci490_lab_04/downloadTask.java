@@ -29,6 +29,7 @@ public class downloadTask extends AsyncTask<String, Void, String> {
 
     @Override
     protected String doInBackground (String... String){
+
         URL url = null;
         try {
             url = new URL(String[0]);
